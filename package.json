@@ -1,0 +1,41 @@
+{
+  "name": "notary-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@primevue/themes": "^4.0.0",
+    "@vuelidate/core": "^2.0.3",
+    "@vuelidate/validators": "^2.0.4",
+    "axios": "^1.7.2",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.0",
+    "vue": "^3.4.31",
+    "vue-router": "^4.4.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.7.0",
+    "@primevue/auto-import-resolver": "^4.0.0",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "autoprefixer": "^10.4.19",
+    "eslint": "9.x",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "eslint-plugin-vue": "^9.27.0",
+    "globals": "^15.8.0",
+    "postcss": "^8.4.39",
+    "prettier": "^3.3.3",
+    "sass": "^1.77.8",
+    "sass-loader": "^14.2.1",
+    "tailwindcss": "^3.4.6",
+    "unplugin-vue-components": "^0.27.3",
+    "vite": "^5.3.4"
+  }
+}
